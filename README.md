@@ -10,8 +10,6 @@
 
 This repository curates papers, benchmarks, tools, reports, and legal context for **OPC**: AI-enabled **One-Person Company** and agentic company automation.
 
-It is **not** a general LLM-agent survey list. The filter is: does this resource help one person use AI agents to perform company-level work such as research, product building, software delivery, marketing, sales, support, finance, operations, governance, or compliance?
-
 ## News
 
 **[2026/05/30]** Refocused the repository around company-function automation. Broad agent surveys were removed unless they directly cover computer use, office/GUI/OS operation, or agent security for delegated business action.
