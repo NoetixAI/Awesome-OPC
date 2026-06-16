@@ -4,7 +4,6 @@
 
 <p align="center">
     <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome list badge"></a>
-    <a href="https://github.com/ImYangC7/Awesome-OPC/stargazers"><img src="https://img.shields.io/github/stars/ImYangC7/Awesome-OPC?style=social" alt="GitHub stars"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
     <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
 </p>
@@ -13,40 +12,40 @@ This repository curates papers, benchmarks, tools, reports, and legal context fo
 
 It is **not** a general LLM-agent survey list. The filter is: does this resource help one person use AI agents to perform company-level work such as research, product building, software delivery, marketing, sales, support, finance, operations, governance, or compliance?
 
-## 📖 News
+## News
 
 **[2026/05/30]** Refocused the repository around company-function automation. Broad agent surveys were removed unless they directly cover computer use, office/GUI/OS operation, or agent security for delegated business action.
 
-## 🌟 Overview
+## Overview
 
-- [📖 News](#-news)
-- [🌟 Overview](#-overview)
-- [🤝 Contributing](#-contributing)
-- [🧭 Scope](#-scope)
-- [🔥 Core OPC Evidence](#-core-opc-evidence)
+- [News](#news)
+- [Overview](#overview)
+- [Contributing](#contributing)
+- [Scope](#scope)
+- [Core OPC Evidence](#core-opc-evidence)
   - [Company-Level-Benchmarks-and-Business-Simulations](#company-level-benchmarks-and-business-simulations)
-- [🧠 Company Functions](#-company-functions)
+- [Company Functions](#company-functions)
   - [Research-and-Product](#research-and-product)
   - [Software-Engineering-and-Delivery](#software-engineering-and-delivery)
   - [Marketing-Sales-CRM-and-Support](#marketing-sales-crm-and-support)
   - [Finance-and-Operations](#finance-and-operations)
-- [🖥 Execution Layer](#-execution-layer)
+- [Execution Layer](#execution-layer)
   - [Computer-Use-Web-and-Office-Agents](#computer-use-web-and-office-agents)
   - [Tool-Use-API-and-MCP](#tool-use-api-and-mcp)
   - [Memory-and-Long-Term-Agent-State](#memory-and-long-term-agent-state)
   - [Virtual-Organization-and-Multi-Agent-Workflows](#virtual-organization-and-multi-agent-workflows)
-- [🛡 Governance](#-governance)
+- [Governance](#governance)
   - [Permissions-Secrets-and-Enterprise-Safety](#permissions-secrets-and-enterprise-safety)
-- [🏢 OPC Context](#-opc-context)
+- [OPC Context](#opc-context)
   - [Industry-Reports-and-Market-Signals](#industry-reports-and-market-signals)
   - [Legal-and-Corporate-Form](#legal-and-corporate-form)
-- [🧩 OPC Reading Map](#-opc-reading-map)
+- [OPC Reading Map](#opc-reading-map)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome high-signal additions through pull requests. Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 🧭 Scope
+## Scope
 
 In this list, **OPC** means AI-enabled **One-Person Company**, not only the legal form called one person company in some jurisdictions.
 
@@ -66,7 +65,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 - Broad reasoning, latent-space, or alignment papers unless they are used in an agentic work system.
 - Toy multi-agent role-play without real tasks, tools, verification, or company-operation relevance.
 
-## 🔥 Core OPC Evidence
+## Core OPC Evidence
 
 ### Company-Level-Benchmarks-and-Business-Simulations
 
@@ -95,7 +94,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 | 2026/04  | [Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows](https://arxiv.org/abs/2604.28139)                                                       | Adds a live benchmark for evolving workflow tasks, useful when agent work environments change over time.       | [Project](https://claw-eval-live.github.io) |
 | 2026/05  | [JobBench: Aligning Agent Work With Human Will](https://arxiv.org/abs/2605.26329)                                                                                  | Shifts occupational-agent evaluation from replacement value to workflows experts actually want to delegate.    | - |
 
-## 🧠 Company Functions
+## Company Functions
 
 ### Research-and-Product
 
@@ -145,7 +144,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 | 2026/03  | [FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol](https://arxiv.org/abs/2603.24943) | Tests financial agents over real MCP tools, multi-tool chains, and multi-turn financial scenarios.               | - |
 | 2026/06  | [BigFinanceBench: A Workflow-Grounded Benchmark for Financial-Research Agents](https://arxiv.org/abs/2606.03829)                            | Evaluates finance-research agents on workflow-grounded tasks, useful for solo-company financial analysis and reporting. | [Dataset](https://huggingface.co/datasets/RogoAI/big-finance-benchmark) |
 
-## 🖥 Execution Layer
+## Execution Layer
 
 ### Computer-Use-Web-and-Office-Agents
 
@@ -214,7 +213,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 | 2026/03  | [Silo-Bench: Evaluating Distributed Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.01045)                               | Tests whether agents can integrate distributed information, a core problem for role-based virtual companies.      | - |
 | 2026/05  | [Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems](https://arxiv.org/abs/2605.14892) | Frames collaboration with failure attribution and self-evolution, important for debugging company-level agent teams. | - |
 
-## 🛡 Governance
+## Governance
 
 ### Permissions-Secrets-and-Enterprise-Safety
 
@@ -252,7 +251,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 | 2026/06  | [ROGUE: Misaligned Agent Behavior Arising from Ordinary Utility Maximization](https://arxiv.org/abs/2606.00341)                              | Studies misaligned behavior that can emerge from ordinary utility maximization, relevant to business-goal agents. | - |
 | 2026/06  | [AgentRedBench: Dynamic Redteaming and Integration-Aware Defense for LLM Agents over SaaS Integrations](https://arxiv.org/abs/2606.02240)    | Red-teams agents over SaaS integrations and evaluates defenses that account for integration context.              | - |
 
-## 🏢 OPC Context
+## OPC Context
 
 ### Industry-Reports-and-Market-Signals
 
@@ -276,7 +275,7 @@ In this list, **OPC** means AI-enabled **One-Person Company**, not only the lega
 | 2024     | [One-Person Limited Liability Company: Considering Company's Organ Governance of the Indonesian Legal Entities for Micro and Small Enterprises](https://ejournal.undip.ac.id/index.php/dlr/article/view/44378/0) | Studies governance issues in one-person limited liability companies for micro and small enterprises.              | - |
 | 2025     | [A Study of the Concept of One Person Company in the Context of Company Law Reforms and Ease of Doing Business in India](https://ijrt.org/j/article/view/623) | Reviews OPC as a company-law reform for solo founders, MSMEs, and ease of doing business.                        | - |
 
-## 🧩 OPC Reading Map
+## OPC Reading Map
 
 For a compact path through this repository:
 
